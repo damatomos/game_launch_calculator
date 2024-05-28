@@ -16,7 +16,7 @@ function handleSubmit(event)
 
   let params = `name=${data.name}&wishlist=${data.wishlist}&price=${data.price}&factor=${data.factor}`;
 
-  document.location.href = `./result/index.html?${btoa(params)}`;
+  document.location.href = `./result.html?${btoa(params)}`;
 }
 
 
